@@ -1,0 +1,127 @@
+$mobile: 800px;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+
+    height: 100%;
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+        background-color: whitesmoke;
+        
+        &__logo{
+            margin-left: 50px;
+            display: flex;
+            gap: 2rem;
+            text-shadow: 2px 2px 5px yellowgreen, -2px -2px 5px yellow;
+            &__brand{
+
+            }
+        }
+        &__menu{
+            margin-right: 50px;
+            display: flex;
+            gap: 2rem;
+        }
+
+    }
+
+    &__main{
+        height: 80vh;
+        background-color: yellowgreen;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 15rem;
+        &__img{
+            align-items: center;
+            height: 50vh;
+            margin-top: 15vh;
+        }
+        &__text{
+            align-items: center;
+            height: 20vh;
+            margin-top: 35vh;
+            color: whitesmoke;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+
+    &__footer{
+        height: 10vh;
+        background-color: bisque;
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+        justify-content: right;
+        padding: 20px;
+    }
+
+}
+
+@media(max-width: $mobile)
+{
+    .container{
+
+        height: 100%;
+    
+        &__header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 15vh;
+            background-color: whitesmoke;
+            
+    
+            &__logo{
+                margin-left: -20px;
+                display: flex;
+                text-shadow: 2px 2px 5px yellowgreen, -2px -2px 5px yellow;
+                &__brand{
+    
+                }
+            }
+            &__menu{
+                margin-right: 50px;
+                display: none;
+                gap: 2rem;
+            }
+    
+        }
+    
+        &__main{
+            height: 80vh;
+            background-color: yellowgreen;
+            display: flex;
+            flex-direction: column;
+            gap:0rem;
+            &__img{
+                margin-top: 0px;
+            }
+            &__text{
+                margin-top: 5px;
+                color: whitesmoke;
+                font-weight: 400;
+                font-size: 20px;
+                &__other{
+                    display: none;
+                }
+            }
+        }
+    
+        &__footer{
+            height: 15vh;
+            background-color: bisque;
+            justify-content: center;
+        }
+    }
+}

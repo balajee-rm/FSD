@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid 2</title>
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 3px;
+        }
+        .container{
+            height: 100vh;
+            display: grid;
+            grid-column: 25% 25% 25% 25%;
+            grid-row: 25% 25% 25% 25%;
+        }
+        .common{
+
+        }
+        .header{
+            grid-row: 1/2;
+            grid-column: 1/5;
+            background-color: antiquewhite;
+        }
+        .sm1{
+            grid-row: 2/3;
+            grid-column: 1/2;
+            background-color: aqua;
+        }
+        .sm2{
+            grid-row: 2/3;
+            grid-column: 2/3;
+            background-color: aqua;
+        }
+        .sm3{
+            grid-row: 2/3;
+            grid-column: 3/4;
+            background-color: aqua;
+        }
+        .side_bar{
+            grid-row: 2/4;
+            grid-column: 4/5;
+            background-color: chartreuse;
+        }
+        .main{
+            grid-row: 3/4;
+            grid-column: 1/4;
+            background-color: yellow;
+        }
+        .footer{
+            grid-row: 4/5;
+            grid-column: 1/5;
+            background-color: blue;
+        }
+       
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="common header">HEADER</div>
+        <div class="common sm1">SMALL BOX 1</div>
+        <div class="common sm2">SMALL BOX 2</div>
+        <div class="common sm3">SMALL BOX 3</div>
+        <div class="common side_bar">SIDE BAR</div>
+        <div class="common main">MAIN CONTENT</div>
+        <div class="common footer">FOOTER</div>
+        
+    </div>
+</body>
+</html>
