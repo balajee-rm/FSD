@@ -1,0 +1,24 @@
+PRACTICE PAPER
+1) Write the Tags to create Headings in HTML
+ANSWER:
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+2) How to apply external CSS?
+ANSWER:
+<link rel="stylesheet" href="./style.css">
+3) What is padding in CSS? 
+ANSWER:
+Provide spacing between border and content
+4) What are Block Level Elements?
+ANSWER:
+Block level elements will occupay entire row space in a browser window
+ex: display: block;
+ex: <p><div><h1><ul><ol><pre>
+5) Are Headings Block Level Elements? (yes/no)
+ANSWER: Yes
+6) write the html code to develop below application with headings
+File: 1.6.html

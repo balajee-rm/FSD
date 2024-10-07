@@ -1,0 +1,15 @@
+1) which tag is used to create the Paragraphs
+ANSWER:
+<p></p>
+2) Are Paragraphs Block Level Elements? (yes/no)
+ANSWER:
+Yes
+3) how to convert block to inline
+ANSWER:
+display: inline-block
+4) how to convert inline to block
+ANSWER:
+display: block
+5) complete the below application with paragraphs
+ANSWER:
+2.5.html

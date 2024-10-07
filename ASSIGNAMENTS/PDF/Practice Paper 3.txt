@@ -1,0 +1,34 @@
+1) How to apply internal styles to the web pages
+ANSWER:
+by using the style tag
+<style>
+</style>
+2) write the Differences between external CSS and Internal CSS? 
+ANSWER:
+External CSS can be applied to many pages
+External CSS needs <link> tag to link the CSS
+Internal CSS get more priority than external CSS
+3) how to create Divisions in HTML
+ANSWER:
+<div></div>
+4) Explain Selectors in CSS?
+ANSWER:
+Tag Selctor -> div {}
+Class Selector -> .class_name {}
+id Selector -> #id_name {}
+Universal Selector -> * {}
+Group Selector -> div1, div2 {}
+Nested Selector -> div .class_name {}
+5) Class selector should start with
+ANSWER:
+dot -> "."
+6) ID Selector should start with
+ANSWER:
+hash -> "#"
+7) Differences Between Class selector and ID Selector? 
+Class name can be repeated and ID is unique
+8) How to create universal selector
+ANSWER
+*{}
+9) Write the code for below application 
+3.9.html
