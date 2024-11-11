@@ -1,0 +1,30 @@
+1) which tag used to create tables
+ANSWER:
+<table></table>
+2) write the tags to create tables with diagram
+ANSWER:
+<table>
+	<tr><th>heading</th></tr>
+	<tr><td>data</td></tr>
+<table>
+3) write table attributes with explanation
+ANSWER:
+Attribute will be inside the opening tag and used to specify the additional properties of the tag.
+4)write the code for below diagram in practice paper and execute in laptop
+ANSWER:
+4.4.html
+5)write few points related to font-awesome
+cart symbol - fas fa-cart-arrow-down
+trash symbol - fa fa-trash
+edit symbol - fa fa-edit
+rupee symbol - fa fa-rupee
+dollar symbol - fa fa-dollar
+user profile - far fa-address-card
+
+6)how to use font-awesome
+<link rel="stylesheet" stylesheet="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css"/>
+
+7) CDN Stands for content delivery network
+
+8) is Font Awesome CSS library?
+It is a style sheet
