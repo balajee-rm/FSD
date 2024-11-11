@@ -1,0 +1,113 @@
+1) What is React?
+a) Library b) Framework c) both a&b d) None
+ANSWER: A
+
+2) Why React
+ANSWER: 
+REUSABLE COMPONENTS
+FASTER RUNNING SPEED
+BEST FOR SINGLE PAGE APP
+MULTITHREADED RUNNING
+
+3) Who released React?
+a) Facebook b) Google c) Microsoft d) None
+ANSWER: A
+
+4) What is current version of React
+ANSWER: VERSION 18.3.1
+
+5) What is JSX?
+ANSWER: Java Script XML
+
+6) npm stands for
+ANSWER: Node Packet Manager
+
+7) npx stands for
+ANSWER: Node Package Execute
+
+8) how to download libraries?
+a) npm b) yarn c) both a&b d) None
+ANSWER: A & B
+
+9) write the installation steps for React?
+Step 1. npm create vite@latest
+Step 2. provide app-name
+Step 3. choose React
+Step 4. choose JS
+Step 5. npm i
+Step 6. cd app-name
+Step 7. npm run dev
+
+10) Write steps to create React Application?
+Step 1. npm create vite@latest
+Step 2. provide app-name
+Step 3. choose React
+Step 4. choose JS
+Step 5. npm i
+Step 6. cd app-name
+Step 7. npm run dev
+
+11) What is Default Port Number of React?
+a) 3000 b) 4200 c) 8080 d) 27017
+ANSWER: A
+
+12) Why node_modules in React Project?
+It will have installed packages file
+
+13) Which component is Default Component in React?
+App.jsx
+
+14) Which template is main template in React?
+App.jsx to main.jsx to index.html
+
+15) Where to deploy components in React Applications?
+src/components folder
+it can be deployed any where in src folder
+
+16) Write the Execution flow of React Application
+App.jsx to main.jsx to index.html
+
+17) What is component? Write minimum 5 points?
+1) Component can be rendered in fron end
+2) We can export and improt components
+3) We can call the importanted components
+4) It will have .jsx or .js extension
+5) It should have first letter in capital while calling the component
+
+19) Types of components in React
+Functional Components
+Class Components
+Higher-Order Components (HOCs)
+Pure Components
+Presentational and Container Components
+Controlled and Uncontrolled Components
+
+20) How to enhance Functional Components
+Use React Hooks (useState, useEffect, useReducer, useContext)
+Optimize with Memoization (React.memo, useCallback, useMemo)
+Create Custom Hooks for reusable logic
+Wrap with Higher-Order Components (HOCs)
+Implement Error Boundaries through HOCs or wrappers
+Use useRef for direct DOM manipulation
+Add Prop Types or TypeScript for type safety
+
+21) Hooks introduced in
+React 16.8 in Feb 2019
+
+22) Write the code to create Following Component?
+refer -> React Assignemt -> main.jsx
+import Q22 from './Assignment/Q22/First.jsx'
+
+23) Write the code for below diagram
+refer -> React Assignemt App -> main.jsx
+import Q23 from './Assignment/Q23/Parent.jsx'
+
+24) Write the code for below diagram?
+refer -> React Assignemt App -> main.jsx
+import Q24 from './Assignment/Q24/Third.jsx'
+
+25) What is state in component?
+
+26) Write the syntax for state in component?
+
+
